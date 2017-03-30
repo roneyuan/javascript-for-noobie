@@ -1,7 +1,11 @@
 /* Hoisting */
 openDoor();
 
-/* Cannot be called because closeDoor() is undefined */
+/* 
+   Cannot be called because closeDoor() is undefined. 
+   When closeDoor is called, it will say TypeError
+   closeDoor is not a function 
+*/
 closeDoor();
 
 // Function Expression
