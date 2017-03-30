@@ -1,7 +1,7 @@
-/* No Hositing */
+/* Hoisting */
 openDoor();
 
-/* Hoisting */
+/* Cannot be called because closeDoor() is undefined */
 closeDoor();
 
 // Function Expression
@@ -11,5 +11,5 @@ var closeDoor = function() {
 
 // Function Decalration
 function openDoor() {
-	console.log("Open the door");
+	console.log("I can be called because I am hosited.");
 }
